@@ -24406,8 +24406,17 @@
                       <article id="grip-content" class="markdown-body entry-content container-lg">
                         <div class="markdown-heading"><h1 class="heading-element">Generalized Additive Models</h1><a id="user-content-generalized-additive-models" class="anchor" aria-label="Permalink: Generalized Additive Models" href="#generalized-additive-models"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
 <p>The general linear regression model enables the study of relationships between quantitative variables through the linear combination of the predicted and predictor variables. It allows for simple, straightforward, and interpretable modeling with one or many predictor variables, assuming straight-line relationships. However, data collected from the real-world often show nonlinear and complex relationships between different variables. While SAT score and college GPA might be moderately positively correlated along a straight line, the relationship between temperature and those same students'demand for electricity might be anything but linear.</p>
-<p><a target="_blank" rel="noopener noreferrer" href="regression_plot.png"><img src="regression_plot.png" alt="Regression Plot" style="max-width: 100%;"></a></p>
+<p><a target="_blank" rel="noopener noreferrer" href="regression_plot.png"><img src="regression_plot.png" alt="Regression Plot" width="40%" style="max-width: 100%;"></a></p>
 <p>This blog post explores the topic of generalized additive models: a type of regression models that enable the study of nonlinear relationships between data. These models retain the interpretability of linear regression while allowing for other curve shapes, such as quadratic or logarithmic.</p>
+<div class="markdown-heading"><h1 class="heading-element">The basics</h1><a id="user-content-the-basics" class="anchor" aria-label="Permalink: The basics" href="#the-basics"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<div class="markdown-heading"><h2 class="heading-element">Standard linear regression model</h2><a id="user-content-standard-linear-regression-model" class="anchor" aria-label="Permalink: Standard linear regression model" href="#standard-linear-regression-model"><span aria-hidden="true" class="octicon octicon-link"></span></a></div>
+<p>The standard linear regression model using ordinary least squares analyzes a response variable in terms of its relation to other variables. Theses predictor variables, denoted with Xs, are multipled by the coefficients \beta and summed. The target or response variable, Y_i, is assumed to be normally distributed with mean $\mu$ and variance $\sigma^2$.</p>
+<p>$$
+Y_i = \beta_0 + \beta_1 X_{i1} + \beta_2 X_{i2} + \cdots + \beta_{p-1} X_{i,p-1} + \varepsilon_i
+$$</p>
+<p>$$
+Y \sim \mathcal{N}(\mu, \sigma^2)
+$$</p>
 
                       </article>
                     </div>
