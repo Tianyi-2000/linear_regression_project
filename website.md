@@ -1,0 +1,5 @@
+# Generalized Additive Models
+
+The general linear regression model enables the study of relationships between quantitative variables through the linear combination of the predicted and predictor variables. It allows for simple, straightforward, and interpretable modeling with one or many predictor variables, assuming straight-line relationships. However, data collected from the real-world often show nonlinear and complex relationships between different variables. While SAT score and college GPA might be moderately positively correlated along a straight line, the relationship between temperature and those same students'demand for electricity might be anything but linear.
+
+This blog post explores the topic of generalized additive models: a type of regression models that enable the study of nonlinear relationships between data. These models retain the interpretability of linear regression while allowing for other curve shapes, such as quadratic or logarithmic.
